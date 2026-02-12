@@ -1185,14 +1185,15 @@ body {
 
 .buy-coffee-section {
   text-align: center;
+  margin-top: var(--spacing-xl);
   margin-bottom: var(--spacing-xl);
 }
 
 .buy-coffee-link {
   display: inline-block;
   font-family: var(--font-heading);
-  font-size: 1.1rem;
-  padding: var(--spacing-md) var(--spacing-xl);
+  font-size: 0.9rem;
+  padding: var(--spacing-sm) var(--spacing-lg);
   background: linear-gradient(135deg, #FFDD00, #FF9900);
   color: #000;
   text-decoration: none;
