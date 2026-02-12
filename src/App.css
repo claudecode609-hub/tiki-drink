@@ -924,6 +924,40 @@ body {
   color: var(--color-warm-orange);
 }
 
+.audio-player__hint {
+  position: absolute;
+  right: 60px;
+  bottom: 8px;
+  background: var(--color-cream);
+  color: var(--color-deep-brown);
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  padding: 6px 14px;
+  border-radius: var(--radius-md);
+  white-space: nowrap;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+  animation: hintBounce 2s ease-in-out infinite;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.audio-player__hint-arrow {
+  font-size: 1.1rem;
+  display: inline-block;
+  animation: nudgeRight 1s ease-in-out infinite;
+}
+
+@keyframes hintBounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+@keyframes nudgeRight {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(4px); }
+}
+
 /* ===================================
    RETAKE SECTION
    =================================== */
