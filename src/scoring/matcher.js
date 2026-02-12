@@ -55,9 +55,9 @@ export function findMatchingDrinks(normalizedUserScores, drinks) {
   return ranked;
 }
 
-export function getResults(answers, questions, drinks) {
+export function getResults(answers, questions, drinks, questionCount) {
   const raw = computeUserScores(answers, questions);
-  const normalized = normalizeScores(raw);
+  const normalized = normalizeScores(raw, questionCount || answers.length);
   const ranked = findMatchingDrinks(normalized, drinks);
 
   return {
