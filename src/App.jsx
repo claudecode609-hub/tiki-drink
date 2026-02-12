@@ -43,8 +43,8 @@ function pickQuestions(allQuestions, count) {
     picked.add(q.id);
   }
 
-  // Return in shuffled order
-  return shuffle(allQuestions.filter(q => picked.has(q.id)));
+  // Return in original order so themes flow naturally
+  return allQuestions.filter(q => picked.has(q.id));
 }
 
 function App() {
