@@ -22,7 +22,7 @@ export default function LandingPage({ onStart }) {
 
       <h1 className="landing-title">Find Your Spiritual Tiki Drink</h1>
       <p className="landing-subtitle">
-        Join us on a spiritual journey to find the true tiki beverage that lives within you.
+        Embark on a spiritual journey to find the true tiki beverage that lives within you.
       </p>
 
       <div className="landing-decor-row">
