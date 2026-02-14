@@ -400,7 +400,7 @@ export const drinks = [
     era: 'Contemporary',
     tagline: 'Everything revolves around this.',
     description: "You're magnetic, complex, and at the cutting edge. A Smuggler's Cove original that represents the pinnacle of modern tiki \u2014 multiple spirits, unexpected ingredients, and perfect balance. You're the person everyone orbits around at a party, and you make the complicated look effortless.",
-    recipeHighlights: ['Aged rum', 'Rye whiskey', 'Allspice dram', 'Lime', 'Passion fruit syrup', 'Demerara syrup', 'Angostura bitters'],
+    recipeHighlights: ['Demerara rum', 'Lime', 'Raspberry', 'Honey'],
     image: 'center-of-the-galaxy.jpg',
     coordinates: { sweetVsBoozy: 1, seriousVsLaidBack: 0, classicVsAvantGarde: 4, simpleVsComplex: 4, tropicalVsSpiced: 1 },
   },
